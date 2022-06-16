@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/reset.css">
-  <link rel="stylesheet" href="./assets/style.css">
-  <title>Mini Project</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="./assets/reset.css" /> -->
+        <link rel="stylesheet" href="./assets/style.css" />
+        <title>Mini Project</title>
+    </head>
 
-<body>
-<header>
-<ul class="li-container">
-  <li class="list-style"> <a href="Github">Github</a> </li>
-  <li class="list-style"> <a href="Portfolio">Portfolio</a> </li>
-  <li class="list-style"> <a href="Contact">Contact</a> </li>
-</ul>
-</header>
-<main>
-  <section>
-<h1>My New Website</h1>
-<figure class="image">
-  <img  src="./assets/images/image.png" alt="Coming Soon">
-</figure>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-</p>
-</section>
-</main>
-
-<footer></footer>
-</body>
-
+    <body>
+        <header>
+            <nav>
+                <ul class="li-container">
+                    <li class="list-style"><a href="Github">Github</a></li>
+                    <li class="list-style">
+                        <a href="Portfolio">Portfolio</a>
+                    </li>
+                    <li class="list-style"><a href="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section1">
+                <h1>My New Website</h1>
+                <figure class="image">
+                    <img src="./assets/images/image.png" alt="Coming Soon" />
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </section>
+            <section class="section2">
+                <h2>Contact Me</h2>
+                <form class="form-box">
+                    <label for="name">Name</label><br />
+                    <input type="text" id="name" /><br />
+                    <label for="email">Email</label><br />
+                    <input type="text" id="email" /><br />
+                    <div class="button">
+                        <input type="submit" value="Send" />
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2022 My New website Productions</p>
+        </footer>
+    </body>
 </html>
